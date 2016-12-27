@@ -319,6 +319,14 @@ function utm_print(){
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
 		<script src="js/jquery.magnific-popup.min.js"></script>
 		<script src="js/main.js"></script>
+			<script src="js/jquery.snow.min.js"></script>
+			<script>
+$(document).ready( function(){
+    $.fn.snow({ minSize: 5, maxSize: 100, newOn: 1000});
+
+	console.log("11");
+});
+</script>
 	</body>
 
 	</html>
